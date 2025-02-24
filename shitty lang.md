@@ -21,6 +21,7 @@ public:
         std::cout << jour << "/" << mois << "/" << annee;
     }
 };
+
 class Client {
 private:
     std::string nom;
@@ -39,6 +40,7 @@ public:
         std::cout << "Client: " << nom << " " << prenom;
     }
 };
+
 class Transaction {
 private:
     Date date;
@@ -59,6 +61,7 @@ public:
         return os;
     }
 };
+
 class JournalComptabilite {
 private:
     float solde;
